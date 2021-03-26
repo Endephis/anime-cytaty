@@ -22,9 +22,11 @@ body {
 }
 .column.side {
     width: 25%;
+    background-color:#aaa;
 }
-  .column.middle {
+.column.middle {
     width: 50%;
+    background-color:#bbb;
 }
 .row:after {
     content: "";
