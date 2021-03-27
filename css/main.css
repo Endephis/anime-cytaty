@@ -39,5 +39,9 @@ body {
     text-align: center;
 }
 .cursor {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100vh;  
     cursor: url(img/cursor.png), auto;
 }
