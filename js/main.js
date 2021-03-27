@@ -9,3 +9,5 @@ window.addEventListener('scroll', () => {
     const fromTop = parseInt(cursor.getAttribute('data-fromTop'));
     cursor.style.top = scrollY + fromTop + 'px';
 })
+
+// lapatakearo dziubutebla lapatak
