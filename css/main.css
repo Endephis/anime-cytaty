@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    cursor: none;
 } 
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -39,9 +40,13 @@ body {
     text-align: center;
 }
 .cursor {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    height: 100vh;  
-    cursor: url(img/cursor.png), auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 51px;
+    background-image: url(img/cursor.png);
+    background-size: 100%;
+    pointer-events: none;
 }
+
