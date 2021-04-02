@@ -4,9 +4,11 @@
 } 
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .container {
-    width: 75%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,7 +21,7 @@ body {
 .column {
     float: left;
     padding: 10px;
-    height: 300px; /* to jest tylko dla prezentacji layoutu */
+    height: 395px; /* to jest tylko dla prezentacji layoutu */
 }
 .column.side {
     width: 25%;
@@ -29,8 +31,50 @@ body {
     width: 50%;
     background-color:#bbb;
 }
+.cytat1 {
+    margin-bottom: 5%;
+    width: 100%;
+    height: 60%;
+    background-color:blanchedalmond; /* roboczy kolor */
+}
+.cytat2 {
+    width: 100%;
+    height: 35%;
+    background-color:blanchedalmond;
+}
+.cytat3 {
+    margin-bottom: 1%;
+    margin-right: 1%;
+    width: 39%;
+    height: 34%;
+    background-color:blanchedalmond;
+    float: left;
+}
+.cytat4 {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 59%;
+    height: 34%;
+    background-color:blanchedalmond;
+    float: right;
+}
+.cytat5 {
+    margin-top: 1%;
+    margin-right: 1%;
+    width: 54%;
+    height: 64%;
+    background-color:blanchedalmond;
+    float: left;
+}
+.cytat6 {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 44%;
+    height: 64%;
+    background-color:blanchedalmond;
+    float: right;
+}
 .row:after {
-    content: "";
     display: table;
     clear: both;
 }
